@@ -1,0 +1,752 @@
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 14px;
+
+}
+a, a:hover{
+    text-decoration: none;
+    color:inherit;
+}
+.logo:hover, .logo {
+    font-family: 'Raleway';
+    font-size: 3.4rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.owl-dots {
+    margin-top: -66px;
+    position: relative;
+}
+
+.owl-dot:focus {
+    outline: none;
+
+}
+.owl-dot span{
+    margin:5px 6px;
+}
+
+.owl-next i {
+    font-size: 8rem;
+    color: #fff;
+}
+
+.owl-prev i {
+    font-size: 8rem;
+    color: #fff;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;
+}
+
+.owl-theme .owl-nav [class*='owl-']:focus {
+    outline: none;
+}
+
+.owl-next {
+    position: absolute;
+    top: 44%;
+    right: 107px;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 44%;
+    left: 107px;
+
+}
+
+.main-item-list {
+    display: inline-block;
+    text-transform: capitalize;
+    margin-right: 26px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.main-item-list .active1:hover, .main-item-list .active1 {
+    color: #c7b299;
+}
+
+.main-item-list:last-child {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.main-item-list img {
+    margin-right: 20px;
+
+}
+
+.main-item-list img:last-child {
+    margin-right: 0;
+}
+
+.item-link:hover, .item-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 0;
+    position: absolute;
+    z-index: 1030;
+    width: 100%;
+
+}
+
+.main-text {
+    color:#fff;
+    position: absolute;
+    top:36%;
+    left: calc(50% - 330px);
+    text-align: center;
+    max-width: 660px;
+
+}
+
+.main-text h5 {
+    font-size: 3.6rem;
+    font-weight: normal;
+
+}
+
+.main-text h3 {
+    font-size: 5.2rem;
+    font-weight: 700;
+    margin-bottom: 13px;
+    letter-spacing: -1px;
+    word-spacing: -5px;
+}
+
+.main-text p {
+    font-size: 1.6rem;
+    margin-bottom: 48px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+
+}
+
+.get-started {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    background: #e59854;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-family: 'Raleway';
+    border-bottom: 2px solid #736357;
+
+}
+
+.get-started:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #998675;
+}
+
+section {
+    padding: 100px 0;
+}
+
+/*============================  Web Design ========================================*/
+#web-design {
+    padding-top: 122px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 15px 0;
+    font-family: 'Raleway';
+}
+
+.box p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.box i {
+    font-size: 4.6rem;
+}
+
+.box span {
+    width: 80px;
+    height: 3px;
+    background: #f1eee9;
+}
+
+.box:hover span {
+    background: #e59854;
+
+}
+
+.box:hover i {
+    color: #e59854;
+}
+
+.box:hover h2 {
+    color: #e59854;
+}
+
+/*=============================Waxom is the Realziation of your Ideas========================================*/
+
+#portfolio {
+    background: #fbfaf8;
+    padding-bottom: 0;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.main-title h2 {
+    font-size: 3.0rem;
+    color: #555555;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.main-title p {
+    font-size: 1.6rem;
+    color: #8c8c8c;
+}
+
+.browser-img {
+    text-align: center;
+}
+
+.browser-img img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.wordpress-theme span {
+    color: #9d8b78;
+}
+
+.wordpress-theme {
+    background: linear-gradient(90deg, #211b19, #4e3427);
+    color: #fff;
+    padding: 30px 0;
+}
+
+.wordpress-theme h2 {
+    font-weight: 400;
+    font-size: 2.8rem;
+    font-family: 'Raleway';
+}
+
+.wordpress-theme p {
+    font-size: 1.8rem;
+    color: #5e5451;
+}
+
+.wordpress-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*====================== Projects ========================================*/
+
+.project-item {
+    display: inline-block;
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+    padding: 5px 20px;
+    border-radius: 3px;
+    color:#8c8c8c;
+}
+.project-item:hover{
+    background: #998675;
+    transition: 0.4s;
+}
+
+.project-item:hover a{
+    color: #fff;
+
+}
+
+.active {
+    background: #998675;
+
+}
+
+.active a:hover, .active a {
+    color: #fff;
+}
+
+/*================  col-lg-4 projects ========================*/
+.project-box {
+    margin-bottom: 30px;
+    cursor:pointer;
+}
+
+
+.project-box:hover .box-text, .project-box:hover .box-text h2 {
+    background: #362f2d;
+    color: #fff;
+}
+
+.project-box:hover .trend {
+    display: flex;
+
+}
+
+.project-box:hover p {
+    color: #c7b299;
+}
+
+.project-menu {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.box-text {
+    background: #fbfaf8;
+    padding: 20px 20px;
+
+}
+
+
+
+.box-text h2 {
+    color: #cab79f;
+    font-family: 'Raleway';
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.box-img {
+    position: relative;
+}
+
+.trend {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+
+}
+
+.trend a:first-child {
+    color: #c7b299;
+    margin-right: 20px;
+}
+
+.trend a {
+    color: #fff;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+}
+
+/*==========================waxom video================================*/
+
+#waxom-video {
+    background: url("../images/video.png") no-repeat;
+    color: #fff;
+    padding: 236px 0  236px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.play-video {
+    text-align: center;
+    max-width:580px;
+
+
+}
+
+.play-video p {
+    margin: 20px 0;
+}
+
+.play-video h2 {
+    font-family: 'Raleway';
+    font-size: 3.0rem;
+}
+
+.play-video p {
+    font-size: 16px;
+}
+
+.play-video span {
+
+    color: #c7b299;
+    font-weight: 600;
+
+}
+
+.play-icon {
+    background: rgba(128, 128, 128, 0.3);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.play-icon:hover {
+    background: rgba(0,0,0,0.4);
+    transition: 0.4s;
+}
+
+/*============================== Execellent for Mobile Devices===========================================*/
+
+#Mobile-Devices {
+    padding-bottom: 0;
+}
+
+.mobile-text {
+    padding: 100px 0;
+
+}
+
+.mobile-title {
+    font-family: 'Raleway';
+    font-size: 3.0rem;
+    font-weight: 600;
+    color: #555555;
+}
+
+.mobile-p {
+    margin: 20px 0;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.mobile-item {
+    list-style-type: none;
+    background: url("../images/arrows.png") no-repeat;
+    background-position: left;
+    line-height: 1.8;
+    font-weight: 300;
+    padding-left:50px;
+
+}
+.mobile-img{
+    display: flex;
+    justify-content: center;
+}
+
+.counter{
+    background: linear-gradient(90deg , #211b19, #4e3427);
+    padding:50px 0;
+}
+.counter-img{
+    padding-bottom:20px;
+}
+.counter-menu{
+    text-align: center;
+}
+
+.counter-list{
+    color:#fff;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    margin-right: 60px;
+
+
+}
+.counter-list:last-child{
+    margin-right: 0;
+}
+
+.counter-list h2{
+    font-size: 4.8rem;
+    font-weight: 300;
+}
+.counter-list p{
+    text-transform: uppercase;
+    color:#c7b299;
+}
+.line{
+    width:40px;
+    height: 2px;
+    background: #fff;
+    margin:25px auto;
+}
+/*===========================Recent post=====================================*/
+.post-box {
+    margin-top: 30px;
+    cursor:pointer;
+    position:relative;
+}
+.trend-2{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+.post-box:hover .trend-2{
+    display: block;
+}
+
+.post-img {
+    position: relative;
+}
+
+.sep-30 {
+    display: inline-block;
+    background: #363636;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.h2 {
+
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 5px;
+
+}
+
+.sep-p {
+    background: #252525;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.post-box:hover .post-text {
+    background: #362f2d;
+    color: #c7b299;
+}
+
+.post-box:hover .post-text p {
+    color: #fff;
+}
+
+.post-box:hover .sep-30 {
+    background: #c7b299;
+    display: inline-block;
+}
+
+.post-box:hover .sep-p {
+    background: #a48d72;
+}
+
+.post-text {
+    padding: 20px;
+    margin: 0 -2px;
+    border: 2px solid #f8f8f8;
+    border-top: none;
+}
+
+.post-text h2 {
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.post-text p {
+    color: #8c8c8c;
+    padding: 10px 0;
+}
+
+.read-more:hover, .read-more {
+    text-decoration: none;
+    color: #c7b299;
+
+}
+
+.read-more i {
+    margin-left: 5px;
+}
+
+.post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*===========================Partners==================================*/
+#partners {
+    background: url("../images/bgpartners.png") no-repeat;
+    padding: 134px 0 134px 0 ;
+    background-size:cover;
+
+}
+.partners-menu{
+    text-align: center;
+}
+.partners-li{
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.partners-li:last-child{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+
+/*===========================Footer========================================*/
+#footer {
+    background: #191919;
+}
+
+.footer-box p {
+    color: #555555;
+    padding: 20px 0;
+}
+
+.read-footer {
+    color: #fff;
+}
+
+.footer-contacts h2 {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.footer-contacts p {
+    color: #555555;
+}
+
+.footer-contacts span {
+    color: #363636;
+}
+
+.recent-middle {
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #252525;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.recent-middle span {
+    color: #fff;
+
+}
+
+.recent-middle p {
+    color: #c7b299;
+}
+
+.twitter-middle {
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #252525;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.footer-contacts .blue-span {
+    color: #00bff3;
+}
+
+.footer-contacts img {
+    margin-bottom: 10px;
+}
+
+.footer-contacts p a {
+    color: #959595;
+}
+
+
+/*==============================Copyright====================================================*/
+.copyright {
+    background: #111111;
+    padding: 50px 0;
+    color: #555555;
+}
+
+.left p {
+    display: inline-block;
+    border-right: 1px solid #252525;
+    padding: 0 10px;
+    font-size: 11px;
+
+}
+
+.left p:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.left p a {
+    color: #959595;
+}
+
+.faq:hover ,.faq {
+    color: #c7b299;
+}
+
+.right p {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 11px;
+
+}
+
+.right p:first-child {
+    border-right: 1px solid #252525;
+}
+
+.right p a {
+    color: #959595;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
