@@ -1,2 +1,2 @@
 # Waxom-Landing-Page
-https://www.kadyrbai1.github.io
+[Link to deployed project](https://www.kadyrbai1.github.io)
